@@ -1,0 +1,249 @@
+/****** BASE STYLES ******/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:#FFFFFF;
+	background-color: #1F202B; 
+}
+
+/****** GRID ******/
+
+.full-width {
+	width: 1200px;
+	margin:0 auto;
+	overflow: auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+	overflow:auto;
+		
+}
+
+.nav-bar {
+	width: 600px;
+	float: right;
+	overflow: auto;
+	
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+
+/****** HEADER ******/
+
+header .full-width {
+	width: 1400px;
+	height:800px;
+}
+
+
+header {
+	background: url("../img/hero-background.png");
+	background-size:1400px 725px;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	
+}
+	
+
+header h1 {
+	font-family:'Montserrat', sans-serif;
+	font-size: 30px;
+	padding: 10px 40px 20px 0;
+	font-weight: normal;
+	
+}
+
+
+nav {
+	float: right;
+	padding:10px 30px 20px 30px;
+	
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform:lowercase;
+	text-decoration: none;
+	font-size: 30px;
+	padding-left:40px;
+	color: #FFFFFF;
+	
+}
+
+header h2 {
+	width: 700px;
+	clear: both;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 72px;
+	line-height: 90px;
+	color:#FFFFFF;
+	padding-top: 250px;
+	padding-left:95px;
+	
+		
+}
+
+header h2 span {
+	color:#fa0075;
+}
+
+/****** PORTFOLIO ******/
+
+#portfolio .full-width{
+	padding-bottom: 30px;
+}
+
+#portfolio .half-width{
+	margin-bottom: 50px;
+		
+}
+
+#portfolio img {
+    height: 350px;
+    width: 550px;
+	padding-top: 35px;
+		
+   }
+
+#portfolio h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36px;
+	color:#fa0075;
+	text-align:center;	
+	padding-bottom:50px;
+		
+}
+
+#portfolio h3 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-left:50px;
+		
+}
+
+#portfolio h3 span {
+	font-weight:normal;
+	
+}
+
+#portfolio p {
+	font-size: 24px;
+	line-height:35px;
+	padding-left:50px;
+	
+	
+}
+
+#header-jp {
+	text-align: right;
+	padding-right:50px;
+}
+
+#par-jp {
+	text-align: right;
+	padding-right: 50px;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+	padding:80px;
+	background:url('../img/about-me.png');
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+	color:black;
+}
+
+
+
+#about h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36px;
+	color:#fa0075;
+	text-align: center;
+	margin-top: -25px;
+}
+
+#about h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#about p {
+	font-size: 24px;
+	line-height:30px;
+	padding-right:50px;
+	
+}
+
+
+
+
+/****** CONTACT ******/
+
+#contact .third-width {
+	text-align:center;
+}
+
+#contact .full-width {
+	text-align: center;
+}
+
+#contact h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36px;
+	color:#fa0075;
+}
+
+#contact h3 {
+	font-size:24px;
+}
+
+#contact p {
+	line-height: 30px;
+	font-size: 24px;
+}
+
+
+#contact a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#contact ul {
+	list-style:none;
+}
+
+#contact ul li {
+	display: inline-block;
+	
+}
+
+#contact ul img {
+	padding-right:40px;
+	
+}
+
+#contact h6 {
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
